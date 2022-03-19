@@ -38,10 +38,10 @@
 
 从主菜单中，选择Run > Add Configuration...，然后选择C++ (GDB/LLDB)。
 然后，您将看到各种预定义调试配置的下拉列表。选择g++.exe 构建和调试活动文件。
-![](https://code.visualstudio.com/assets/docs/cpp/mingw/build-and-debug-active-file.png
+![](https://code.visualstudio.com/assets/docs/cpp/mingw/build-and-debug-active-file.png)
 开始调试会话#
 返回helloworld.cpp，使其成为活动文件。
 按F5或从主菜单中选择Run > Start Debugging。在开始逐步浏览源代码之前，让我们花点时间注意用户界面的一些变化：
 集成终端出现在源代码编辑器的底部。在“调试输出”选项卡中，您会看到指示调试器已启动并正在运行的输出。
 
-编辑器突出显示方法中的第一条语句main。这是 C++ 扩展自动为您设置的断点：)
+编辑器突出显示方法中的第一条语句main。这是 C++ 扩展自动为您设置的断点：
